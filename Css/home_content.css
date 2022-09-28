@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "sans_light";
+    src: url(../Fonts/sans_light.ttf);
+}
+*::selection{
+    background-color: #D7282F;
+    color: white;
+}
+body{
+    background-image: url(../Images/homepage/wheelchair.jpg);
+}
+#bg>img{
+    width: 100%;
+}
+#container{
+    background-image: linear-gradient(90deg,white,rgba(255,255,255,0));
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 135%;
+}
+#description{
+    width: 53%;
+    padding: 5% 7%;
+}
+.span{
+    border-bottom: 3px solid #D7282F;
+    padding-bottom: 3%;
+}
+
+h1{
+    font-family: "sans_light";
+    font-weight: lighter;
+}
+.paragraph{
+    padding-top: 2%;
+    line-height: 150%;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+    width: 100%;
+    height: 10px;
+    overflow: hidden;
+}
+.line img{
+    width:100%;
+}
+#cards_parent{
+    background-color: white;
+    width: 100%;
+}
+.cards{
+    width: 77%;
+    margin: auto;
+    display: flex;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.cards img{
+    width: 100%;
+    padding-bottom: 3%;
+}
+.cards>div{
+    padding: 1%;
+}
+.cards p{
+    padding-top: 3%;
+    line-height: 170%;
+}
+.cards div:last-child img{
+    height: 56%;
+}
+.cards>div>button{
+    color: white;
+    padding: 3%;
+    border-radius: 3em;
+    background-color: #D7282F;
+    border: none;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cards>div>button>img{
+    filter:invert();
+    width: 9%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+#paralympic{
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    padding:10% 0 10% 0;
+}
+#paralympic>div{
+    width: 80%;
+    margin: auto;
+}
+#paralympic>div button{
+    color: white;
+    padding: 1.5%;
+    border-radius: 3em;
+    background-color: #D7282F;
+    border: none;
+    width: 20%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#paralympic>div img{
+    filter:invert();
+    width: 9%;
+    margin-left: 5%;
+}
+.span2{
+    border-bottom: 3px solid #3D7CC9;
+    padding-bottom: 2%;
+}
+#paralympic p{  
+    padding-top: 1.5%;
+    line-height: 170%;
+}
+#grid_parent{
+    width: 100%;
+    background-color: white;
+}
+#grid_part{
+    width: 85%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2%;
+    padding:8% 0 8% 0;
+}
+#grid_btn{
+    color: white;
+    padding: 4%;
+    border-radius: 3em;
+    background-color: #D7282F;
+    border: none;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20%;
+}
+#grid_btn img{
+    filter:invert();
+    width: 15%;
+    margin-left: 5%;
+}
+#grid_part div:nth-child(1) p{
+    line-height: 160%;
+}
+.grid_image img:nth-child(1){
+    margin-bottom: 5%;
+}
+#grid_part>div>img{
+    width: 100%;
+}
+#underline{
+    width: 13%;
+    border: 2px solid  #D7282F;
+}
+#contact{
+    width: 100%;
+    color:white;
+    background-color: #3D7CC9;
+}
+#contact>div{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding: 5% 0% 5% 0;
+}
+#contact>p{
+    text-align: center;
+    padding-bottom: 3%;
+    color:#D3C3CE;
+}
+#contact ul{
+    width: 50%;
+}
+#contact li:nth-child(1){
+    font-size: 20px;
+    padding-bottom: 10%;
+}
+#contact li{
+    padding:1%;
+}

@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 65%;
+    margin: auto;
+    padding-top: 1%;
+}
+#header>*{
+    padding: 1%;
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+}
+#navbar *:hover{
+    color: red;
+}
+#navbar img{
+    width: 2%;
+}
