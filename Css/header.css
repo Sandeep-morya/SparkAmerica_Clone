@@ -1,7 +1,23 @@
+@font-face {
+    font-family: "sans_light";
+    src: url(../Fonts/sans_light.ttf);
+}
+*::selection{
+    background-color: #D7282F;
+    color: white;
+}
+
 body{
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+}
+h1{
+    font-family: "sans_light";
+    font-weight: lighter;
+}
+button{
+    cursor: pointer;
 }
 #header{
     width: 65%;
@@ -11,9 +27,15 @@ body{
 #header>*{
     padding: 1%;
 }
-#navbar a{
+.span{
+    border-bottom: 3px solid #D7282F;
+    padding-bottom: 3%;
+}
+a{
     text-decoration: none;
-    color: black;
+}
+#navbar a{
+    color:black;
 }
 #logo{
     display: flex;

@@ -1,15 +1,4 @@
-@font-face {
-    font-family: "sans_light";
-    src: url(../Fonts/sans_light.ttf);
-}
-*::selection{
-    background-color: #D7282F;
-    color: white;
-}
-body{
-    background-image: url(../Images/homepage/wheelchair.jpg);
-}
-#bg>img{
+#bg{
     width: 100%;
 }
 #container{
@@ -17,21 +6,13 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    height: 135%;
+    height: 141%;
 }
 #description{
     width: 53%;
     padding: 5% 7%;
 }
-.span{
-    border-bottom: 3px solid #D7282F;
-    padding-bottom: 3%;
-}
 
-h1{
-    font-family: "sans_light";
-    font-weight: lighter;
-}
 .paragraph{
     padding-top: 2%;
     line-height: 150%;
@@ -94,10 +75,16 @@ h1{
     background-color: rgba(255,255,255,0.5);
     width: 100%;
     padding:10% 0 10% 0;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    background-image: url(../Images/homepage/wheelchair.jpg);
+    background-size: 100%;
+    background-attachment: scroll;
 }
 #paralympic>div{
     width: 80%;
     margin: auto;
+    
 }
 #paralympic>div button{
     color: white;
@@ -136,7 +123,7 @@ h1{
     gap:2%;
     padding:8% 0 8% 0;
 }
-#grid_btn{
+.learn_more{
     color: white;
     padding: 4%;
     border-radius: 3em;
@@ -149,7 +136,7 @@ h1{
     display: flex;
     margin-top: 20%;
 }
-#grid_btn img{
+.learn_more img{
     filter:invert();
     width: 15%;
     margin-left: 5%;
@@ -166,30 +153,4 @@ h1{
 #underline{
     width: 13%;
     border: 2px solid  #D7282F;
-}
-#contact{
-    width: 100%;
-    color:white;
-    background-color: #3D7CC9;
-}
-#contact>div{
-    width: 50%;
-    margin: auto;
-    display: flex;
-    padding: 5% 0% 5% 0;
-}
-#contact>p{
-    text-align: center;
-    padding-bottom: 3%;
-    color:#D3C3CE;
-}
-#contact ul{
-    width: 50%;
-}
-#contact li:nth-child(1){
-    font-size: 20px;
-    padding-bottom: 10%;
-}
-#contact li{
-    padding:1%;
 }
