@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+body>div{
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top:0;
+    left: 30%;
+}
+h1{
+    font-size: 20px;
+    
+}
+body>div>div{
+    background-color: white;
+}

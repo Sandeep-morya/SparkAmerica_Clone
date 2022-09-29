@@ -60,3 +60,7 @@ a {
 .dark{
   font-weight: bold;
 }
+#description p{
+  padding-top: 1.5%;
+  line-height: 160%;
+}
