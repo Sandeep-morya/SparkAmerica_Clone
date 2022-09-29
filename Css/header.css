@@ -19,11 +19,12 @@ h1 {
 }
 button {
   cursor: pointer;
+  transition: ease-in 0.2s;
 }
 #header {
   width: 65%;
   margin: auto;
-  padding-top: 1%;
+  padding-top: 0.5%;
 }
 #header > * {
   padding: 1%;
