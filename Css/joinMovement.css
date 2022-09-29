@@ -28,25 +28,40 @@
     margin: auto;
     padding-top: 1%;
 }
-#part_four button{
-    background-color: #0082CA;
-    color:white;
+.icon{
+    filter:invert();
+    width: 8%;
+    padding-right: 3% ;
+}
+#part_four>button{
     border: none;
-    border-radius:0.3em;
+    background-color: #0082CA;
+    color: white;
     font-size: 16px;
     font-weight: bold;
-    padding: 1.5%;
-    margin: 2% 0 2% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3em;
+    width: 34%;
+    padding: 0 2%;
+    margin: auto;
 }
-#part_four :first-child,#part_four :last-child{
-    text-align: center;
+#part_four button:first-child{
+    width: 20%;
 }
-#part_four :first-child>button:hover{
-    color:#ffd400;
-}
-#part_four :last-child>button:hover{
+#part_four button:last-child:hover{
     background-color: #ff8300;
+    transition: ease-in 0.2s;
 }
+
+svg{
+    width: 10%;
+    filter: invert();
+    padding-right: 3% ;
+}
+
+
 #part_five{
     width: 73%;
     margin: auto;

@@ -1,7 +1,3 @@
-document.querySelector("#logo>img").addEventListener("click", (e) => {
-  window.location.href ="./Index.html";
-});
-
 document.querySelectorAll(".learn_more").forEach(e=>{
   e.addEventListener("click",el=>{
     window.location.href="./calender.html";
