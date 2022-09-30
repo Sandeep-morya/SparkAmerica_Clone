@@ -36,7 +36,7 @@
     grid-column: span 2;
     width: 23%;
     margin: auto;
-    padding: 2%;
+    padding: 1.8%;
 }
 #partner_grid p{
     line-height: 150%;
@@ -45,8 +45,9 @@ h1{
     font-size: 25px;
 }
 .font-fam{
+    font-size:23px;
     font-family: sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
 }
 h2{
     font-size: 18px;
@@ -77,6 +78,6 @@ h2{
     border-radius: 0.5em;
 }
 #partner_grid .type_2 button,#partner_grid .type_3 button{
-    padding: 8%;
+    padding: 7% 10%;
     margin: auto;
 }
