@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "pro-light";
+    src: url(../Fonts/pro_light.ttf);
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow-x: hidden;
+  }
+  body > img {
+    width:200%;
+  }
+  #content {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 0;
+    left: 20%;
+  }
+  #content>img{
+    width: 80%;
+  }
+  #white_part{
+    min-width: 90%;
+    background-color: white;
+    border-radius: 0.8em;
+  }
+  #white_part>div{
+    text-align: center;
+  }
+  
+ 
+  #faq{
+      font-family: "pro-light";
+      color:white;
+      font-size: 18px;
+      font-weight: bold;
+      padding-top: 2%;
+  }
+  #faq:hover,#btn>a:hover{
+      color:#003b5c;
+      transition: ease-in 0.2s;
+      cursor: pointer;
+  }
+  #btn>button:hover{
+      background-color: #003b5c;
+  }
+  ul{
+      width: 75%;
+      color:white;
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 28%;
+      font-size: 15px;
+  }
+  ul li:nth-child(2):hover,ul li:nth-child(3):hover{
+      color: #17A2B8;
+      cursor: pointer;
+  }
+  
