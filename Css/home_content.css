@@ -1,12 +1,16 @@
-#bg>img{
-    width: 100%;
+#bg{
+    background-image: url(../Images/homepage/homeImage1.jpg);
+    background-size: cover;
+    background-position:20px;
+    /* background-attachment: fixed; */
+}
+div:empty{
+    width: 8%;
+    border: 2px solid #D7282F;
 }
 #container{
     background-image: linear-gradient(90deg,white,rgba(255,255,255,0));
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 135%;
+    height: 120vh;
 }
 #description{
     width: 53%;
@@ -37,7 +41,7 @@
     margin: auto;
     display: flex;
     padding-top: 4%;
-    padding-bottom: 4%;
+    padding-bottom: 5%;
 }
 .cards img{
     width: 100%;
@@ -50,12 +54,12 @@
     padding-top: 3%;
     line-height: 170%;
 }
-.cards div:last-child img{
-    height: 56%;
+.cards div:last-child>img{
+    width: 97%;
 }
 .cards>div>button{
     color: white;
-    padding: 3%;
+    padding: 1.5%;
     border-radius: 3em;
     background-color: #D7282F;
     border: none;
@@ -72,19 +76,19 @@
     margin-top: 2%;
 }
 #paralympic{
-    background-color: rgba(255,255,255,0.5);
     width: 100%;
-    padding:10% 0 10% 0;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
     background-image: url(../Images/homepage/wheelchair.jpg);
-    background-size: 100%;
-    background-attachment: scroll;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #paralympic>div{
+    width: 100%;
+    background-color: rgba(255,255,255,0.4);
+    padding: 10% 0 10%;
+}
+#paralympic>div>div{
     width: 80%;
     margin: auto;
-    
 }
 #paralympic>div button{
     color: white;
@@ -92,15 +96,15 @@
     border-radius: 3em;
     background-color: #D7282F;
     border: none;
-    width: 20%;
+    width: 15%;
     margin: auto;
     justify-content: center;
     align-items: center;
     display: flex;
 }
-#paralympic>div img{
+#paralympic button>img{
     filter:invert();
-    width: 9%;
+    width: 15%;
     margin-left: 5%;
 }
 .span2{

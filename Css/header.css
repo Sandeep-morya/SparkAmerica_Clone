@@ -6,7 +6,6 @@
   background-color: #d7282f;
   color: white;
 }
-
 body {
   font-family: sans-serif;
   margin: 0;
@@ -49,6 +48,7 @@ a {
 }
 #navbar *:hover {
   color: red;
+  cursor: pointer;
 }
 #navbar img {
   width: 2%;
