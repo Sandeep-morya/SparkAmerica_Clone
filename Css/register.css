@@ -46,7 +46,6 @@ label {
   line-height: 220%;
 }
 input {
-  box-sizing: content-box;
   font-size: 18px;
   width: 100%;
   padding: 2%;
@@ -59,7 +58,7 @@ input {
 input:focus {
   box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 1px 4px;
   outline: 1px solid #30cae6;
-  transition: ease-in 0.1s;
+  transition: ease-in 0.15s;
 }
 input + p {
   margin-top: 0.5%;

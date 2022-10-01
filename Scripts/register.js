@@ -6,8 +6,7 @@ let recap = false;
 document.querySelector("#content").addEventListener("mousedown", (e) => {
   line.style.visibility = "visible";
   if (!box.value.includes("@")&& !box.value.includes(".com")||box.value.includes(" ") || box.value=="") {
-    line.innerText = "The EmailAddress field is required.";
-    line.style.color = "Red";
+    email= false;
   } else {
     email = true;
   }

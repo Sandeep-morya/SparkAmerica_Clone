@@ -2,7 +2,7 @@
   font-family: "sans_light";
   src: url(../Fonts/sans_light.ttf);
 }
-*::selection {
+::selection {
   background-color: #d7282f;
   color: white;
 }
@@ -37,6 +37,10 @@ a {
 }
 #navbar a {
   color: black;
+}
+#navbar :hover{
+  font-size: 110%;
+  box-sizing: border-box;
 }
 #logo {
   display: flex;

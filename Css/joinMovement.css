@@ -1,6 +1,11 @@
 .span{
     padding-bottom: 1.5%;
 }
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
 #part_one{
     width: 78%;
     margin: auto;
