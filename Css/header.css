@@ -12,6 +12,16 @@ body {
   padding: 0;
   height: 100vh;
 }
+body::-webkit-scrollbar{
+  width: 10px;
+  background-image: linear-gradient(#d7282f,#3d7cc9);
+}
+body::-webkit-scrollbar-thumb{
+  width: 50%;
+  background-color: white;
+  border-radius: 3em;
+  height: 20px;
+}
 h1 {
   font-family: "sans_light";
   font-weight: lighter;
@@ -37,10 +47,6 @@ a {
 }
 #navbar a {
   color: black;
-}
-#navbar :hover{
-  font-size: 110%;
-  box-sizing: border-box;
 }
 #logo {
   display: flex;
