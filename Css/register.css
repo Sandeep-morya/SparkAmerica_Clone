@@ -120,7 +120,7 @@ ul {
   color: white;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 28%;
+  margin-top: 18%;
   font-size: 15px;
 }
 ul li:nth-child(2):hover,
